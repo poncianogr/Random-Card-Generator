@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Card Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="card" id="card">
+
+        <span class="number">7</span>
+
+    </div>
+
+    <div class="click">
+        <button class="btn" onClick="window.location.reload()">Generate New Card</button>
+    </div>
+    
+<div id="height">
+    <br>
+    <label for="cars">Choose a height:</label>
+
+<select name="cars" id="myOptionn">
+    <option value="200px">Small</option>
+  <option value="500px">Medium</option>
+  <option value="1000px">Large</option>
+</select>
+</div>
+
+<br>
+<div id="weight">
+    <label for="width">Choose a width:</label>
+
+    <select id="myOption">
+      <option value="200px" id="width-small">Small</option>
+      <option value="500px">Medium</option>
+      <option value="1200px">Large</option>
+    </select>
+</div>
+
+
+<br>
+
+<button onclick="autogenerate()">Auto generate</button>
+
+
+<button onclick="stopgenerate()">Stop</button>
+
+
+
+
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

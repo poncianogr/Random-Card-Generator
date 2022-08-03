@@ -1,0 +1,65 @@
+body {
+    background: #0e7e12;
+    text-align: center;
+  }
+  
+  .card {
+    background: white;
+    display: inline-block;
+    margin: auto;
+    margin-top: 40px;
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    position: relative;
+  }
+    .number {
+      font-size: 60px;
+      line-height: 370px;
+    }
+    :before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 70px;
+      padding-left: 20px;
+    }
+    :after {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      font-size: 70px;
+      padding-right: 20px;
+    }
+    .spade:before,
+    .spade:after {
+      content: "\2660";
+    }
+    .club:before,
+    .club:after {
+      content: "\2663";
+    }
+    .heart:before,
+    .heart:after {
+      content: "\2665";
+      color: red;
+    }
+    .diamond:before,
+    .diamond:after {
+      content: "\2666";
+      color: red;
+    }
+  
+  
+  .click {
+    padding-top: 10px;
+  }
+  .btn {
+    background: lightgray;
+  }
+  
+  .btn:hover {
+    background: darkgreen;
+  }
